@@ -1,0 +1,254 @@
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .container {
+      max-width: 960px;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 10px 15px;
+    }
+  
+    .course-card {
+      margin-bottom: 30px;
+    }
+  }
+  
+  /* Medium and smaller devices (less than 992px) */
+  @media (max-width: 991.98px) {
+    .container {
+      max-width: 720px;
+    }
+  
+    .navbar-brand {
+      padding: 15px 0;
+    }
+  
+    .navbar-toggler {
+      display: block;
+    }
+  
+    .navbar-collapse {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #0e2a47;
+      padding: 10px 0;
+      z-index: 999;
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 12px 20px;
+      text-align: center;
+    }
+  
+    .about-section {
+      text-align: center;
+    }
+  
+    .about-image {
+      margin-bottom: 30px;
+    }
+  
+    .course-card {
+      max-width: 450px;
+      margin: 0 auto 30px;
+    }
+  
+    .trainer-card,
+    .testimonial-item {
+      margin-bottom: 30px;
+      padding: 30px;
+    }
+  
+    .hero-content h1 {
+      font-size: 3.5rem;
+    }
+  
+    .features-grid,
+    .why-us-content {
+      flex-direction: column;
+    }
+  
+    .feature-box {
+      flex: 0 0 100%;
+      margin-bottom: 30px;
+    }
+  
+    .about-content,
+    .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-img,
+    .about-text,
+    .footer-col {
+      width: 100%;
+      flex: 0 0 48%;
+    }
+  
+    .small-img {
+      top: -30px;
+      left: -30px;
+    }
+  
+    .about-features,
+    .why-us-features {
+      grid-template-columns: 1fr;
+    }
+  
+    .courses-grid,
+    .team-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Small devices (less than 768px) */
+  @media (max-width: 767.98px) {
+    .container {
+      max-width: 540px;
+    }
+  
+    section {
+      padding: 60px 0;
+    }
+  
+    .top-bar {
+      display: none;
+    }
+  
+    .header-main {
+      padding: 10px 0;
+    }
+  
+    .feature-box {
+      border-right: none;
+      border-bottom: 1px solid #e9e9e9;
+    }
+  
+    .feature-box:last-child {
+      border-bottom: none;
+    }
+  
+    .about-content h2,
+    .about-text h2,
+    .section-header h2,
+    .why-us .section-header h2 {
+      font-size: 2rem;
+    }
+  
+    .about-actions {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .call-btn {
+      margin-top: 15px;
+    }
+  
+    .small-img {
+      top: -20px;
+      left: -20px;
+    }
+  
+    .courses-grid,
+    .team-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .appointment-form {
+      padding: 25px;
+    }
+  
+    .testimonial-carousel .carousel-indicators {
+      bottom: -40px;
+    }
+  
+    .footer-col {
+      flex: 0 0 100%;
+    }
+  
+    .copyright {
+      margin-bottom: 10px;
+    }
+  
+    .hero {
+      min-height: 550px;
+    }
+  
+    .hero-buttons {
+      flex-direction: column;
+      width: 100%;
+      max-width: 300px;
+      margin: 30px auto 0;
+    }
+  }
+  
+  /* Extra small devices (less than 576px) */
+  @media (max-width: 575.98px) {
+    h1 {
+      font-size: 2rem !important;
+    }
+  
+    h2 {
+      font-size: 1.8rem !important;
+    }
+  
+    .hero {
+      min-height: 450px;
+    }
+  
+    .hero-content h1 {
+      font-size: 2.2rem;
+    }
+  
+    .feature-stats .col-6 {
+      margin-bottom: 20px;
+    }
+  
+    .appointment-form {
+      padding: 20px 15px;
+    }
+  
+    .form-group {
+      margin-bottom: 15px;
+    }
+  
+    .course-price {
+      position: static;
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+  
+    .testimonial-item {
+      padding: 20px 15px;
+    }
+  
+    .testimonial-content p {
+      font-size: 14px;
+    }
+  
+    .footer-widget h4 {
+      margin-bottom: 15px;
+    }
+  
+    .social-icons li {
+      margin-right: 8px;
+    }
+  
+    .back-to-top {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      right: 15px;
+      bottom: 15px;
+    }
+  
+    .team-grid {
+      grid-template-columns: 1fr;
+    }
+  }  
+  
